@@ -1,0 +1,63 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+body{
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background: url(../img/light-bulb-4514505_1920.jpg)no-repeat center/cover;
+}
+
+body::before{
+  content: "";
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  background: #ffffff91;
+  z-index: -1;
+}
+
+h1, h2, p{
+  margin: .5rem;
+}
+
+h2{
+  font-size: 2.5rem;
+}
+
+p{
+  font-size: large;
+  font-weight: bold;
+  font-size: 1.5rem;
+}
+
+button{
+  border: none;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  color: white;
+  font-weight: bold;
+  width: 200px;
+  margin-bottom: 5px;
+  border-radius: 5px;
+  letter-spacing: .1rem;
+}
+
+#increment-btn {
+  cursor: pointer;
+  background-color: darkred;
+}
+
+#save-btn{
+  margin-top: .5rem;
+  cursor: pointer;
+  background-color: limegreen;
+}
